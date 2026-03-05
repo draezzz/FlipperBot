@@ -54,6 +54,30 @@
   <li><code>flippyOnly.ino</code>: Standalone weapon calibration and servo testing script.</li>
 </ul>
 
+<h2>⚙️ Setup & Installation</h2>
+
+<h3>1. Required Libraries</h3>
+<p>Ensure you have the following libraries installed in your <b>Arduino IDE</b> before compiling:</p>
+<ul>
+  <li><code>RF24</code> (by TMRh20)</li>
+  <li><code>Servo</code> (Built-in)</li>
+  <li><code>TB6612FNG_XCR</code></li>
+</ul>
+
+<h3>2. Hardware Wiring</h3>
+<p>The system is split into two units: the <b>Transmitter (Controller)</b> and the <b>Receiver (Robot)</b>.</p>
+<ul>
+  <li><b>Radio Pins:</b> CE and CSN pins are set to <b>9</b> and <b>8</b> respectively.</li>
+  <li><b>Weapon Servo:</b> Connected to pin <b>7</b> on the Controller or pin <b>0</b> on the Robot.</li>
+  <li><b>Motor Driver:</b> Standby Pin must be set to <b>A3</b>.</li>
+</ul>
+
+<h3>3. Deployment</h3>
+<ul>
+  <li>Flash <code>transmit1.ino</code> to the handheld controller.</li>
+  <li>Flash <code>receiver1.ino</code> to the robot chassis.</li>
+</ul>
+
 <h2>👥 Contributors</h2>
 <ul>
   <li><b>Iain Draezen Sy Guillermo</b>

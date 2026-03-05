@@ -41,10 +41,10 @@ This project was conducted during the Resident Maker Program at Animo Labs.
 
 <h3>🧠 Technical Highlights</h3>
 <ul>
-  <li><b>Wireless Communication:</b> Implemented 2.4GHz RF communication using <code>nRF24L01</code> modules[cite: 149, 162]. Developed a custom data structure (<code>JS_data</code>) to synchronize joystick axes and weapon triggers[cite: 150, 164].</li>
-  <li><b>Locomotion & Control:</b> Integrated the <code>TB6612FNG</code> motor driver with differential steering logic[cite: 162, 169]. Features a "Sumo Mode" for enhanced dual-motor synchronization[cite: 170].</li>
-  <li><b>Weapon Mechanism:</b> Programmed a servo-actuated "flippy" weapon with mapped positions from 0° (rest) to 120° (flip) for offensive maneuvers[cite: 143, 144].</li>
-  <li><b>Failsafe Systems:</b> Built a software-level watchdog that halts all motor activity (<code>sumoControl(0, 0)</code>) if the radio signal is lost for more than 500ms[cite: 166, 178].</li>
+  <li><b>Wireless Communication:</b> Implemented 2.4GHz RF communication using <code>nRF24L01</code> modules. Developed a custom data structure (<code>JS_data</code>) to synchronize joystick axes and weapon triggers.</li>
+  <li><b>Locomotion & Control:</b> Integrated the <code>TB6612FNG</code> motor driver with differential steering logic. Features a "Sumo Mode" for enhanced dual-motor synchronization.</li>
+  <li><b>Weapon Mechanism:</b> Programmed a servo-actuated "flippy" weapon with mapped positions from 0° (rest) to 120° (flip) for offensive maneuvers.</li>
+  <li><b>Failsafe Systems:</b> Built a software-level watchdog that halts all motor activity (<code>sumoControl(0, 0)</code>) if the radio signal is lost for more than 500ms.</li>
 </ul>
 
 <h2>🛠 Hardware Configuration</h2>
@@ -55,37 +55,37 @@ This project was conducted during the Resident Maker Program at Animo Labs.
   </tr>
   <tr>
     <td><b>Microcontroller</b></td>
-    <td>Arduino (Uno/Nano Compatible) [cite: 142]</td>
+    <td>Arduino (Uno/Nano Compatible)</td>
   </tr>
   <tr>
     <td><b>Radio Module</b></td>
-    <td>nRF24L01 (SPI Interface) [cite: 149, 162]</td>
+    <td>nRF24L01 (SPI Interface)</td>
   </tr>
   <tr>
     <td><b>Motor Driver</b></td>
-    <td>TB6612FNG_XCR [cite: 162]</td>
+    <td>TB6612FNG_XCR</td>
   </tr>
   <tr>
     <td><b>Actuators</b></td>
-    <td>Dual DC Motors + High-Torque Servo [cite: 142, 169]</td>
+    <td>Dual DC Motors + High-Torque Servo</td>
   </tr>
 </table>
 
 <h2>🚀 Firmware Structure</h2>
 <ul>
-  <li><code>transmit.ino</code>: Handheld controller logic with joystick mapping and RF transmission[cite: 149].</li>
-  <li><code>receiver.ino</code>: Robot-side logic handling motor control and weapon actuation[cite: 162].</li>
-  <li><code>flippyOnly.ino</code>: Standalone weapon calibration and servo testing script[cite: 142].</li>
+  <li><code>transmit.ino</code>: Handheld controller logic with joystick mapping and RF transmission.</li>
+  <li><code>receiver.ino</code>: Robot-side logic handling motor control and weapon actuation.</li>
+  <li><code>flippyOnly.ino</code>: Standalone weapon calibration and servo testing script.</li>
 </ul>
 
 <h2>👥 Contributors</h2>
 <ul>
-  <li><b>Iain Draezen Sy Guillermo</b> [cite: 8, 82]
+  <li><b>Iain Draezen Sy Guillermo</b>
     <br /><i>BS/MS Computer Science, De La Salle University</i>
   </li>
 </ul>
 
 <hr />
 <div align="center">
-  <p><small>Developed under the Memorandum of Agreement between DLSU Science Foundation and the Student[cite: 1, 4].</small></p>
+  <p><small>Developed during the Resident Maker Program at Animo Labs.</small></p>
 </div>

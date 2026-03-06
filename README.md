@@ -80,9 +80,11 @@
 
 <h2>👥 Contributors</h2>
 <ul>
-  <li><b>Iain Draezen Sy Guillermo</b>
-    <br /><i>BS/MS Computer Science, De La Salle University</i>
-  </li>
+  <li><b>Gabrielle Bactong (gabrielle_bactong@dlsu.edu.ph)</b></li>
+  <li><b>Iain Guillermo (iain_draezen_guillermo@dlsu.edu.ph)</b></li>
+  <li><b>Eiress Ong (eiress_bassey_ong@dlsu.edu.ph)</b></li>
+  <li><b>Ethan Reyes (ethan_jude_r_reyes@dlsu.edu.ph)</b></li>
+  <li><b>Sofia Tomas (sofia_angeline_s_tomas@dlsu.edu.ph)</b></li>
 </ul>
 
 <hr />
